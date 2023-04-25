@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 44px;
+  font-display: inherit;
+  text-decoration: underline;
+  color: blue;
+  font-stretch: semi-expanded;
+  position: fixed;
+  border: 10px dashed black;
+  margin: bottom;
+}
+body {
+  background-image: url(https://sitedebelezaemoda.com.br/wp-content/uploads/2015/06/tecnicas-de-unhas-decoradas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  margin: 45px auto 200px auto
+  width: 15%
+  
+
+}

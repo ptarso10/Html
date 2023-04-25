@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unhas Nails</title>
+  </head>
+  <body>
+    <h1>Encontre no google</h1>
+    <form action="https://www.google.com/search">
+      <label for="q">Gostaria de Solicitar nossos serviços?</label>
+      <input
+        type="number"
+        id="q"
+        name="q"
+        placeholder="Orcamento, Modelos de Unhas"
+        required
+        min="10"
+        max="25"
+      />
+      <input type="submit" value="Pesquisar" /> <br />
+      <br />
+    </form>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser" />
+
+    <datalist id="browsers">
+      <option value="Edge"></option>
+      <option value="Firefox"></option>
+      <option value="Chrome"></option>
+      <option value="Opera"></option>
+      <option value="Safari"></option>
+    </datalist>
+  </body>
+</html>

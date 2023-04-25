@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ephesis&family=Quicksand&family=Raleway:ital,wght@0,400;0,700;1,500&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(90.15deg, #f869f1 16.62%, #df56aa 85.61%);
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+
+}
+
+.cabecalho-texto {
+  font-family: "Ephesis", cursive;
+  font-size: 70px;
+}
+.cabecalho-menu {
+  cursor: pointer;
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu :hover{
+  color: aqua;
+  transition: all 0.3s;
+
+}
+
+.cabecalho-menu-item {
+  font-family: "Comfortaa", cursive;
+  font-weight: 100;
+  color: black;
+}
+.conteudo {
+  border-top: 0.4px solid rgb(203, 166, 245);
+margin bottom: 48px;
+}
+
+
+img{
+  width: 250px;
+}
+
+
+
+.conteudo-principal-sobremim{
+
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
+.sobremim{margin-top: 200px;
+  margin-left: 850px;
+display: flex;
+align-items: center;
+font-family: 'Ephesis', cursive;
+font-size: 40px;
+}
+
+.conteudo-principal-escrito{
+display: flex;
+margin-left: 300px;
+margin-right: 300px;
+}
+
+.foto{
+  margin-top: 70px;
+  margin-left: 810px;
+}

@@ -1,0 +1,20 @@
+h1 {
+  font-size: 50px;
+  background-color: grey;
+
+  border: 8px dashed yellow;
+}
+
+li {
+  color: cyan;
+  border: 5px solid whitesmoke;
+}
+
+body {
+  background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/1_icon_olympus_multi-purpose_isru-based_lunarconstructionsystem_concept-render_nov2022_for_icon_release.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+}
